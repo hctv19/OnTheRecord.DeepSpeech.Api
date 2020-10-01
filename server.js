@@ -224,6 +224,7 @@ io.on('connection', function(socket) {
         resetAudioStream();
     });
 });
+console.log("Starting app on PORT:",process.env.PORT);
 
 app.listen(process.env.PORT, 'localhost', () => {
     console.log('Socket server listening on:', process.env.PORT);

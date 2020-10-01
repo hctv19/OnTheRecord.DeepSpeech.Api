@@ -8,7 +8,7 @@ let DEEPSPEECH_MODEL = '/ds-models/deepspeech-0.8.2-models'; // path to deepspee
 
 let SILENCE_THRESHOLD = 200; // how many milliseconds of inactivity before processing the audio
 
-const SERVER_PORT = process.env.port || 4000; // websocket server port
+const SERVER_PORT = process.env.PORT || 4000; // websocket server port
 
 // const VAD_MODE = VAD.Mode.NORMAL;
 // const VAD_MODE = VAD.Mode.LOW_BITRATE;

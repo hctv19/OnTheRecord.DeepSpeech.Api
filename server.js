@@ -14,8 +14,8 @@ app.get('/', (req, res) => {
 });
 
 
-let DEEPSPEECH_MODEL = __dirname + '/deepspeech-0.8.2-models'; // path to deepspeech english model directory
-// let DEEPSPEECH_MODEL = '/ds-models/deepspeech-0.8.2-models'; // path to deepspeech english model directory
+// let DEEPSPEECH_MODEL = __dirname + '/deepspeech-0.8.2-models'; // path to deepspeech english model directory
+let DEEPSPEECH_MODEL = '/ds-models/deepspeech-0.8.2-models'; // path to deepspeech english model directory
 
 let SILENCE_THRESHOLD = 200; // how many milliseconds of inactivity before processing the audio
 

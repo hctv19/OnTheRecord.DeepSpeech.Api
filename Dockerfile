@@ -12,8 +12,6 @@ RUN npm install
 # If you are building your code for production
 # RUN npm ci --only=production
 
-# RUN wget https://github.com/mozilla/DeepSpeech/releases/download/v0.8.2/deepspeech-0.8.2-models.pbmm
-# RUN wget https://github.com/mozilla/DeepSpeech/releases/download/v0.8.2/deepspeech-0.8.2-models.scorer
 
 # Bundle app source
 COPY . .

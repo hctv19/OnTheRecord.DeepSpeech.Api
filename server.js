@@ -3,12 +3,12 @@ const socketIO = require('socket.io');
 const DeepSpeech = require('deepspeech');
 const VAD = require('node-vad');
 
-//let DEEPSPEECH_MODEL = __dirname + '/deepspeech-0.8.2-models'; // path to deepspeech english model directory
-let DEEPSPEECH_MODEL = '/ds-models/deepspeech-0.8.2-models'; // path to deepspeech english model directory
+let DEEPSPEECH_MODEL = __dirname + '/deepspeech-0.8.2-models'; // path to deepspeech english model directory
+// let DEEPSPEECH_MODEL = '/ds-models/deepspeech-0.8.2-models'; // path to deepspeech english model directory
 
 let SILENCE_THRESHOLD = 200; // how many milliseconds of inactivity before processing the audio
 
-const SERVER_PORT = 4000; // websocket server port
+const SERVER_PORT = process.env.port || 4000; // websocket server port
 
 // const VAD_MODE = VAD.Mode.NORMAL;
 // const VAD_MODE = VAD.Mode.LOW_BITRATE;

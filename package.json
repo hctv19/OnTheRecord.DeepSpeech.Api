@@ -16,7 +16,8 @@
     "should-http": "^0.1.1",
     "socket.io": "^2.3.0",
     "socket.io-client": "^2.3.0",
-    "yarn": "^1.22.10"
+    "yarn": "^1.22.10",
+    "express": "^4.16.1"
   },
   "scripts": {
     "start": "react-scripts start",
